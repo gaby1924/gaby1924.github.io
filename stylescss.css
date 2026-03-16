@@ -4,7 +4,6 @@ Gaby Malaka
 03/15/2026
 CSS Stylesheet 
 */
-
 title{
     text-align: center;
     font-size: 24px;
@@ -22,18 +21,25 @@ h1 {
     padding: 20px;
 }
 nav ul {
+    font-family: Cascadia Code ExtraLight, monospace;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
     list-style-type: none;
-    padding: 0px;
+    padding: 20px;
     margin: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
+    color: purple;
+    border-radius: 20px;
 }
-li {
-    float: left;
+nav li {
+    float: right;
+    text-align: center;
+    text-decoration: none;
 }
 li a {
-    display: block;
-    color: white;
+    color: purple;
     font-size: 14px;
     font-family: Cascadia Code ExtraLight, monospace;
     font-weight: 200;
@@ -41,19 +47,29 @@ li a {
     padding: 10px 12px;
     text-decoration: none;
     border-radius: 20px;
-    border-color: purple;
 }
 .active {
-    background-color: white;
+    background-color: black;
+    color: purple;
+    text-align: center;
 }
 li a:hover {
     background-color: black;
     color: purple;
+    text-align: center;
 }
 main {
     padding: 20px;
     border-radius: 20px;
     border-color: purple;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+    font-family: Cascadia Code ExtraLight, monospace;
+    font-weight: 200;
+    background-color: white;
+    padding: 20px;
 }
 h2 {
     text-align: center;
@@ -63,12 +79,26 @@ h2 {
     background-color: white;
     padding: 20px;
 }
+section ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    font-family: Cascadia Code ExtraLight, monospace;
+    font-weight: 200;
+    color: purple;
+    border-radius: 20px;
+    list-style-type: none;
+}
 footer {
     color: purple;
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     font-family: Cascadia Code ExtraLight, monospace;
     font-weight: 200;
     background-color: lightgray; 
-    padding: 20px;
+    padding: 10px;
+    border-radius: 20px;
 }
